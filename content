@@ -113,7 +113,7 @@
             }
 
             try {
-                const response = await fetch('ENTERYOURWEBHOOKHERE', {
+                const response = await fetch('ENTERYOURWEBHOOK', {
                     method: 'POST',
                     body: formData,
                 });
