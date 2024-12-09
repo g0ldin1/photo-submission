@@ -113,7 +113,7 @@
             }
 
             try {
-                const response = await fetch('https://hook.us2.make.com/54bwcgj8ozi9s1cb91v1qtdykerm31u9', {
+                const response = await fetch('ENTERYOURWEBHOOKHERE', {
                     method: 'POST',
                     body: formData,
                 });
